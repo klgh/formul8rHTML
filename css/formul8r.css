@@ -1,0 +1,93 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+@media (max-width: 979px) {
+	          body {
+	              padding-top: 15px;
+	              position: relative;
+	              padding-left: 5px;
+	              padding-right: 5px;
+	          }
+	      }
+
+
+font-family: 'Ubuntu', sans-serif;
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+body {
+	padding-top: 15px;
+	padding-bottom: 70px;
+	position: relative;
+	  }
+
+.navbar {
+	background-color: white;
+	border-color: white;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+footer {
+	background-color: white;
+	line-height: 2.5;
+	font-family:'Arial';
+}
+
+footer li {
+	font-size: 13px;
+	font-family:'Arial';
+	font-weight:normal;
+	line-height:2.1;
+}
+
+.btmftr {
+    font-size: 15px;
+    font-family:'Arial';
+    font-weight:bold;
+    line-height:1.1;
+  }
+
+
+/**Links**/
+	a {
+	    color:#000000;
+	    text-decoration:none;
+	}
+	a:hover,a:focus {
+	    color:#000000;
+	    text-decoration:none;
+	}
+
+	a:focus {
+	    outline:thin dotted #000000;
+	    outline:5px auto -webkit-focus-ring-color;
+	    outline-offset:-2px;
+	}
+
+/**Responsive Elements**/
+	img {
+	    max-width: 100%; /**makes images resize nicely**/
+	}
+
+	@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+
+.jumbotronfeatures {
+      padding-top: 70px;
+      margin-bottom: 0px;
+      font-size: 21px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: white;
+      background-color: #78BD46;
+  }
