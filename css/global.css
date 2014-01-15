@@ -1,43 +1,4 @@
 
-/**Navbar**/
-	.special {
-	    padding: 0px 0px;
-	    border: none;
-	}
-
-	.btn-danger:hover,
-	.btn-danger:focus,
-	.btn-danger:active,
-	.btn-danger.active,
-	.open .dropdown-toggle.btn-danger  {
-	  color: #fff;
-	  background-color: #D9534F;
-	  border-color: #D43F3A;
-	}
-
-	.nav>li>a:hover, .nav>li>a:focus {
-	    background-color: none;
-	}
-
-	.navbar-toggle {
-  		background-color: #FA9300;
-	}
-
-	.navbar-toggle .icon-bar {
-  		background-color: #FBC031;
-	}
-	
-	.active {
-		background-color: #EEEEEE;
-	}
-
-	.active>a {
-		color: #1386A8;
-	}
-
-	  .nav>li>a:hover {
-      text-decoration:none;
-  }
 
 
 

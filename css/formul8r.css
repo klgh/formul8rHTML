@@ -37,6 +37,52 @@ body {
   color: black;
 }
 
+.special {
+	padding-top: -30px;
+}
+
+.nav>li>a {
+	padding-top: -30px;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.open .dropdown-toggle.btn-danger  {
+	color: #fff;
+	background-color: #D9534F;
+	border-color: #D43F3A;
+}
+
+.nav>li>a {
+	padding-top: 20px;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: none;
+}
+.navbar-toggle {
+  	background-color: #FA9300;
+}
+.navbar-toggle .icon-bar {
+  	background-color: #FBC031;
+}	
+.active {
+	background-color: #EEEEEE;
+}
+.active>a {
+	color: #1386A8;
+}
+.nav>li>a:hover {
+    text-decoration:none;
+}
+
+#navtop {
+    margin-top: -10px;
+    margin-bottom: 12px;
+}
+
+
 footer {
 	background-color: white;
 	line-height: 2.5;
@@ -81,6 +127,15 @@ footer li {
 
 	@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 
+.jumbotron {
+  padding: 70px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+}
 
 .jumbotronfeatures {
       padding-top: 70px;
@@ -90,4 +145,23 @@ footer li {
       line-height: 2.1428571435;
       color: white;
       background-color: #78BD46;
+  }
+.jumbotronpricing {
+      padding: 70px;
+      margin-bottom: 0px;
+      font-size: 21px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: white;
+      background-color: #FBC031;
+  }
+
+  .jumbotronsupport {
+      padding: 70px;
+      margin-bottom: 0px;
+      font-size: 21px;
+      font-weight: 200;
+      line-height: 2.1428571435;
+      color: white;
+      background-color: #1386A8;
   }
